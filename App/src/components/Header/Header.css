@@ -1,0 +1,38 @@
+.header{
+
+}
+.header img{
+    width: 100%;
+}
+.base1, .base2{
+    width: 100%;
+}
+.base1{
+    position: absolute;
+    z-index: 1;
+}
+.base2{
+    margin-top: 28px;
+    z-index: 0;
+}
+.base2:hover{
+    margin-top: 50px;
+}
+.logoBox{
+    margin-top: 10px;
+    margin-left: 35px;
+    position: absolute;
+    z-index: 2;
+    width: 120px;
+}
+
+.header button{
+    border: none;
+    left: 75%;
+    top: 10.7%;
+    z-index: 3;
+    position: absolute;
+    width: 45px;
+    height: 19px;
+    background-color: var(--primary-color);
+}
