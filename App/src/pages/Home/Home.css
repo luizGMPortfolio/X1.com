@@ -1,5 +1,24 @@
-.home{
-    width: 100%;
-    min-height: 100vh;
-    background-color: var(--tertiary-color);
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--tertiary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
+.Notification {
+  min-height: 100px;
+}
+
+.Games {
+  width: 90%;
+}
+.Games ul {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+  gap: 2%;
+}
+

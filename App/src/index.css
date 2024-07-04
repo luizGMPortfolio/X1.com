@@ -1,11 +1,33 @@
 :root {
-  --primary-color: #FFC700;
+  --primary-color: #ffc700;
   --secondary-color: #131313;
   --tertiary-color: #232323;
 }
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
 
-html,body{
-    padding: 0;
-    margin: 0;
-  }
+img {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+hr {
+  width: 70%;
+  border-color: var(--primary-color);
+}
+
+.Carter-One-Cinza {
+  color: #c0bebe;
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}

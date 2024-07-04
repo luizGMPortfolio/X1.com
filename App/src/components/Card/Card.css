@@ -1,0 +1,20 @@
+.Card{
+    width: 300px;
+    background: url("../../assets/Painel.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.Card:hover{
+    transition: 300ms;
+    transform: translateY(-20px);
+    box-shadow: 2px;
+}
+
+.CommingSoon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
