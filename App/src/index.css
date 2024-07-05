@@ -25,9 +25,58 @@ hr {
   border-color: var(--primary-color);
 }
 
+
+h1{
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color);
+}
+h2{
+  margin: 0;
+  padding: 0;
+}
+h3{
+  margin: 0;
+  padding: 0;
+}
+
 .Carter-One-Cinza {
   color: #c0bebe;
   font-family: "Carter One", system-ui;
   font-weight: 400;
   font-style: normal;
+  margin-right: 5px;
+}
+
+.Rubik-Mono-One {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rancho{
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.fonte-80{
+  font-size: 120px;
+}
+.fonte-40{
+  font-size: 40px;
+}
+
+.Classic{
+  color: #fff;
+}
+
+
+
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
 }

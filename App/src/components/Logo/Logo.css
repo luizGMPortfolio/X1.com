@@ -1,0 +1,10 @@
+.title{
+
+}
+.title h2{
+    position: relative;
+    left: 210px;
+    bottom: 70px;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}

@@ -28,6 +28,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logoBox{
     margin-top: 10px;

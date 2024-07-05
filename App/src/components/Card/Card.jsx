@@ -1,21 +1,19 @@
-import './Card.css'
+/* eslint-disable react/prop-types */
+import "./Card.css";
 
-import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Card = ({Style, id}) => {
+const Card = ({ Style, id }) => {
+  return (
+    <Link
+      to={`/Games/${id}`}
+      className={`Card ${
+        Style === "CommingSoon" ? "Carter-One-Cinza CommingSoon" : ""
+      }`}
+    >
+      {Style === "CommingSoon" && <h2>Comming Soon</h2>}
+    </Link>
+  );
+};
 
-    const Redirect = (id) => {
-        Navigate(`/Games/${id}`)
-    }
-
-    return(
-        <div className={`Card ${Style === 'CommingSoon' ? 'Carter-One-Cinza CommingSoon': ''}`} onClick={!Style && Redirect(id)}>
-        {Style === 'CommingSoon' &&
-            <h2>Comming Soon</h2>}
-        </div>
-    )
-
-
-}
-
-export default Card
+export default Card;

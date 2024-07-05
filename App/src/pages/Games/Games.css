@@ -1,0 +1,40 @@
+.games{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--tertiary-color);
+}
+
+
+
+.GameHeader{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+
+}
+.GameHeader .Box1{
+    margin-left: 100px;
+    display: flex;
+    justify-content: start;
+}
+.GameHeader .Box2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.BoxDiscription{
+    width: 50%;
+    height: 100%;
+    background: url('../../assets/GameHeadersBaseYellow.png');
+    background-repeat: no-repeat;
+}
+.Game{
+    height: 80vh;
+    background-color: var(--secondary-color);
+}
+.Info{
+    height: 50vh;
+}
