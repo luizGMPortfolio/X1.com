@@ -10,31 +10,78 @@
     width: 100%;
     height: 40vh;
     display: flex;
-    flex-direction: column;
-    padding: 50px 0;
+    padding: 80px 0;
 
 }
 .GameHeader .Box1{
-    margin-left: 100px;
-    display: flex;
-    justify-content: start;
-}
-.GameHeader .Box2{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-}
-.BoxDiscription{
     width: 50%;
     height: 100%;
-    background: url('../../assets/GameHeadersBaseYellow.png');
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.GameHeader .Box2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background: url('../../assets/Controlers.jpg');
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.BoxDiscription{
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/backgrounds/DescriptionBase.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.BoxDiscription p{
+    width: 60%;
 }
 .Game{
+    width: 100%;
+}
+.GameScreen{
+    width: 100%;
     height: 80vh;
     background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
 }
-.Info{
+.GameScreen .LeftSide, .GameScreen .RightSide{
+    width: 100%;
+    display: flex;
+}
+.GameScreen .LeftSide{
+    justify-content: left;
+}
+.GameScreen .RightSide{
+    justify-content: right;
+}
+.GameScreen .line{
+    width: 1px;
+    background-color: var(--primary-color);
+}
+.GameFooter{
+    height: 5vh;
+    background: url('../../assets/backgrounds/GameHeadersBaseYellow.png');
+    background-repeat: no-repeat;
+    background-position: 110%;
+}
+.Configs{
+    margin: 50px 0;
     height: 50vh;
+    background-color: var(--primary-color);
 }
+.LeaderBoard{
+    height: 50vh;
+    background-color: var(--primary-color);
+}
+
+.BallContainer{
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+}
+

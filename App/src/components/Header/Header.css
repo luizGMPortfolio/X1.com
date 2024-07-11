@@ -9,7 +9,7 @@
 .YellowBase{
     width: 50%;
     height: 100%;
-    background: url('../../assets/HeaderBaseYellow.png');
+    background: url('../../assets/backgrounds/HeaderBaseYellow.png');
     background-size: cover;
     display: flex;
     justify-content: end;
@@ -24,7 +24,7 @@
 .YellowBase ul li{
     width: 140px;
     height: 80%;
-    background: url('../../assets/HeaderButton.png');
+    background: url('../../assets/backgrounds/HeaderButton.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
